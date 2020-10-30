@@ -1,0 +1,39 @@
+.call-to-action {
+  display: inline-block;
+  border: none;
+  background: #f50e02;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: lighter;
+  opacity: 0.9;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  width: 120px;
+}
+
+.call-to-action span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.call-to-action span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.call-to-action:hover span {
+  padding-right: 25px;
+}
+
+.call-to-action:hover span:after {
+  opacity: 1;
+  right: 0;
+}

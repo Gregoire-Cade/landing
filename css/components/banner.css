@@ -1,0 +1,26 @@
+.banner {
+  background-image: url(../../images/background.png);
+  background-size: cover;
+  padding: 200px 0;
+  background-position: center;
+}
+
+.container {
+  margin: auto;
+  width: 900px;
+}
+
+.container p {
+  font-size: 20px;
+  color: rgb(180, 180, 180);
+}
+
+.container h1  {
+  color: white;
+}
+
+.container h2  {
+  color: black;
+  text-align: center;
+}
+
